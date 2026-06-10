@@ -24,7 +24,21 @@ desktop.ini
 logs/
 
 .env
+.env.backup
 .env.local
+.env.*
 .env.*.local
 
 .vercel/
+
+server.err
+server.out
+
+tmp_presentation/
+tmp_presentation.zip
+
+uploads/*
+!uploads/avatars/
+!uploads/avatars/.gitkeep
+!uploads/verifications/
+!uploads/verifications/.gitkeep
